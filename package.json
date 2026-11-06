@@ -34,6 +34,11 @@
     "globals": "^16.0.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.0.0",
-    "vite": "^8.1.4"
+    "vite": "^8.3.6"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.5"
+    }
   }
 }
